@@ -1,0 +1,24 @@
+.admin-header{
+    height: 106px;
+    width: 100%;
+    background: radial-gradient(75.49% 75.49% at 61.01% 75.77%, #376A9A 0%, #2B5276 100%);
+}
+
+@media(max-width: 768px){
+    .admin-line{
+        display: none;
+    }
+    .admin-tagline{
+        display: none;
+    }
+    .admin-login::before{
+        top: 25%;
+        right: 246px;
+    }
+}
+
+@media(max-width: 376px){
+    .admin-login::before{
+        display: none;
+    }
+}

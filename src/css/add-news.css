@@ -1,0 +1,135 @@
+.add__news-form{
+    padding-top: 174px;
+    padding-bottom: 140px;
+}
+
+.add__news-subtitle{
+    margin-bottom: 74px;
+}
+
+.add__news-textarea{
+    display: inline-block;
+    padding: 22px 16px;
+    margin-bottom: 4px;
+    width: 770px;
+    height: 144px;
+    background-color: transparent;
+    border: 1px solid #23415E;
+    border-radius: 6px;
+    resize: none;
+    outline: none;
+    font-family: 'ProximaNovaRegular';
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.add__news-textarea_info{
+    display: inline-block;
+    padding-bottom: 7px;
+    width: 770px;
+    font-family: 'ProximaNovaRegular';
+    font-size: 12px;
+    line-height: 20px;
+    color: #D0C9D6;
+    text-align: right;
+}
+
+.limit-symbols{
+    color: #FF2323;
+}
+
+.add__news-add__image{
+    display: flex;
+    align-items: center;
+    margin-bottom: 103px;
+}
+
+.upload-image__input{
+    opacity: 0;
+    width: 230px;
+    height: 34px;
+    position: absolute;
+}
+
+.upload-image__label{
+    margin-right: 70px;
+    width: 230px;
+    height: 24px;
+    font-family: 'ProximaNovaSemibold';
+    font-size: 16px;
+    line-height: 24px;
+    color: #2A496B;
+    background: center/ contain no-repeat url(../img/add_image.svg);
+    background-position: left;
+    background-size: 21px 18.38px;
+    text-align: right;
+    vertical-align: middle;
+}
+
+.uploaded-image__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 34px;
+    opacity: 0;
+}
+
+.uploaded-image__container--active{
+    opacity: initial;
+}
+
+.uploaded-image__icon{
+    margin-right: 35px;
+    width: 34px;
+    height: 34px;
+}
+
+.uploaded-image__name{
+    margin-right: 20px;
+    font-family: 'ProximaNovaRegular';
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.uploaded-image__close-btn{
+    width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: none;
+    background: center/ contain no-repeat url(../img/close.svg);
+    outline: none;
+    cursor: pointer;
+}
+
+.add__news-error-block{
+    font-family: 'ProximaNovaRegular';
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF2323;
+}
+
+@media(max-width:768px){
+    .add__news-textarea{
+        width: 100%;
+    }
+    .add__news-textarea_info{
+        width: 100%;
+    }
+}
+
+@media(max-width: 376px){
+    .add__news-form{
+        padding-top: 96px;
+        padding-bottom: 108px;
+    }
+    .add__news-add__image{ 
+        margin-bottom: 32px;
+        flex-direction: column;
+        align-items: start;
+    }
+    .upload-image__label{
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}

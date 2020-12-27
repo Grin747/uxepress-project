@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>UXEPRESS</title>
+</head>
+<body>
+    <header class="admin-header">
+    <div class="header-main container">
+        <div class="header__logo">
+            <div class="logo">
+                <a class="logo-link" href="../index.html">
+                    <img src="../img/icon.svg" alt="logo-icon" class="logo-icon">
+                    <img src="../img/uxpress.svg" alt="logo-name" class="logo-name">
+                </a>
+            </div>
+            <div class="separation-line admin-line"></div>
+            <span class="tagline admin-tagline">Курьерская служба доставки</span>
+        </div>
+        <div class="header__login admin-login">
+            <button class="login-btn admin-login">Вход</button>
+        </div>
+    </div>
+</header>
+    <section class="add__news container">
+    <form action="" class="add__news-form">
+        <h2 class="modal__window-title add__news-title">Добавить новость</h2>
+        <p class="modal__window-subtitle add__news-subtitle">Введите текст новости, а также приложите изображение (размер: 270х270px)</p>
+        <textarea placeholder="Введите текст новости" name="" id="" cols="30" rows="10" class="add__news-textarea"></textarea>
+        <span class="add__news-textarea_info">Символов: 0/150</span>
+        <div class="add__news-add__image">
+            <input type="file" accept=".jpg, .jpeg, .png" class="upload-image__input">
+            <label for="" class="upload-image__label">+ Добавить изображение</label>
+            <div class="uploaded-image__container">
+                <img src="" alt="" class="uploaded-image__icon">
+                <span for="" class="uploaded-image__name"></span>
+                <button class="uploaded-image__close-btn"></button>
+            </div>
+            <div class="add__news-error-block"></div>
+        </div>
+        <button class="typical-btn add__news-btn-submit">Применить</button>
+    </form>
+</section>
+    <footer class="footer">
+    <div class="container">
+        <div class="footer__wrap">
+            <div class="logo footer-logo">
+                <a href="../index.html" class="logo-link">
+                    <img src="../img/icon.svg" alt="logo-icon" class="logo-icon">
+                    <img src="../img/uxpress.svg" alt="logo-name" class="logo-name">
+                </a>
+            </div>
+            <div class="link__list">
+                <a href="#" class="link">О компании</a>
+                <a href="#" class="link">Доставка из Китая</a>
+                <a href="#" class="link">Вакансии</a>
+                <a href="#" class="link">Все услуги</a>
+                <a href="#" class="link">Клиенту</a>
+                <a href="#" class="link">Акции</a>
+                <a href="#" class="link">Франчайзинг</a>
+            </div>
+            <p class="contacts">
+                manager@uexpress.ru <br/><br/>
+                115221, г. Челябинск,<br/>
+                ул. Северная, д. 29-в<br/><br/>
+                Мы работаем по 24 часа<br/>
+                5 дней в неделю
+            </p>
+        </div>
+        
+    </div>
+</footer>
+    <div class="modal__window">
+    <div class="modal__window_wrap">
+        <button class="close-btn"></button>
+        <form action="" class="modal__window_form">
+            <h2 class="modal__window-title">Авторизация</h2>
+            <p class="modal__window-subtitle">Введите логин и пароль, чтобы войти в личный кабинет</p>
+            <div class="modal__window_form-input">
+                <input type="email" class="modal_window-input" placeholder="Логин">
+                <input type="password" class="modal_window-input" placeholder="Пароль">
+                <button type="submit" class="modal-btn">Войти</button>
+            </div>
+        </form>
+    </div>
+</div>
+    <script src="js/admin.min.js"></script>
+</body>
+</html>
